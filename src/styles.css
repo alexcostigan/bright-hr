@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* General styling for the app */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Styling for the app container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Input and buttons styling */
+input[type="text"] {
+  width: calc(100% - 150px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Document list styling */
+.document-list {
+  list-style: none;
+  padding: 0;
+}
+
+.document-item, .folder-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.folder-item {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.document-item:hover, .folder-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* Folder contents indentation */
+.folder-contents {
+  margin-left: 20px;
+}
